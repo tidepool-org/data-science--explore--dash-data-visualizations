@@ -58,6 +58,8 @@ app.layout = html.Div([
     )
 ])
 
+print({str(year): str(year) for year in df['Year'].unique()} )
+
 @app.callback(
     Output('indicator-graphic', 'figure'),
     [Input('xaxis-column', 'value'),

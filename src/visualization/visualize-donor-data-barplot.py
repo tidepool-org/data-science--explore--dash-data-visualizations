@@ -7,7 +7,7 @@
 # The code for creating this figure is pulled directly from this
 # Google Colab https://colab.research.google.com/drive/1JYn4B0Smc2l7H7_uF6gXeFOPpwkDi_8m?authuser=2#scrollTo=96Z-nEkblH2n
 #
-# This code needs some refactoring (cleaning up and splitting into fucntions, etc.),
+# This code needs some refactoring (cleaning up and splitting into functions, etc.),
 # so this is meant primarily as an example of using Dash this way.
 
 
@@ -21,9 +21,8 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-# Read in Data
-
-file_path = '/Users/anneevered/Desktop/2019-07-17-aggregate-cgm-stats.csv.gz'
+# Read and Format Data File
+file_path = input("Enter file path : ")
 
 user_stats_df = pd.read_csv(file_path)
 

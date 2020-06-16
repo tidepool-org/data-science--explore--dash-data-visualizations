@@ -7,6 +7,8 @@ from dash.dependencies import Input, Output
 import pandas as pd
 import numpy as np
 
+
+
 # Functions
 def get_age_category(value):
     if pd.isnull(value):
@@ -53,7 +55,8 @@ def read_and_format_data(file_path):
 
 
 # Read and Format Data File
-file_path = '/Users/anneevered/Desktop/2019-07-17-aggregate-cgm-stats.csv.gz'
+file_path = input("Enter file path : ")
+
 
 df = read_and_format_data(file_path)
 
@@ -161,3 +164,4 @@ def update_graph(xaxis_column_name, yaxis_column_name,
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+

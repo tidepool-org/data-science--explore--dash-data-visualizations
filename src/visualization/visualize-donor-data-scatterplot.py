@@ -1,4 +1,5 @@
 # Import Packages
+import sys
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -53,7 +54,7 @@ def read_and_format_data(file_path):
 
 
 # Read and Format Data File
-file_path = '/Users/anneevered/Desktop/2019-07-17-aggregate-cgm-stats.csv.gz'
+file_path = sys.argv[1] # './data/2019-07-17-aggregate-cgm-stats.csv'
 
 df = read_and_format_data(file_path)
 
@@ -160,4 +161,4 @@ def update_graph(xaxis_column_name, yaxis_column_name,
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', debug=True)

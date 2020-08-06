@@ -1,0 +1,5 @@
+.*
+*.{md,sh,py,txt,yml,yaml}
+test?/*
+tox.ini
+Dockerfile

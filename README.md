@@ -116,3 +116,12 @@ NOTE: PHI data is never stored in github and the .gitignore file includes this r
 - [ ] automate the process of finding all of the the TODO: comments in the code and put link here.
 
 ## Initial Setup Checklist
+
+## Running as Docker Container
+
+Here are the steps to run this in Docker:
+
+0. Install [Docker](https://www.docker.com/get-started) on your machine.
+1. Modify the `CMD` statement in the `Dockerfile`, if needed, to point the visualization script at the right data file in the `data` folder.
+2. Run the `dockerize.sh` script to create a Docker image. This may take a while when first run as it fetches the [`python:3.7-slim`](https://hub.docker.com/_/python) base image.
+3. Run the `run-docker.sh` script to launch a Docker container using the previously created image.

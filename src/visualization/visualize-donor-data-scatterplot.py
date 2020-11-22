@@ -1,3 +1,5 @@
+__author__ = "Anne Evered"
+
 # Import Packages
 import dash
 import dash_core_components as dcc

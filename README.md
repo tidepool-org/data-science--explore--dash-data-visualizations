@@ -6,14 +6,14 @@
 ## Project Objective
 The purpose of this project is to explore the use of the Dash Python framework 
 for building data visualization web applications. The repository includes example
-Dash applications, as well as different exploratory visualizations of the Tidepool donor
+Dash applications (dash-example1.py, dash-example2.py, dash-example3.py, dash-example4.py), as well as different exploratory visualizations of the Tidepool donor
 data. Work in this repository can eventually be incorporated into a Data Science Team 
 visualizations repository (`data-science--tool--visualization-tools`) after the exploratory phase.
 
 ## Definition of Done
 This phase of the project will be done when the exploratory phase of the Dash tools
 is completed to a point that the work should be incorporated into a Data Science Team 
-visualizations toolkit.
+visualization tools.
 
 ## Project Description
 In order to learn more about the Dash framework and its capabilities, we create a series

@@ -1,7 +1,10 @@
+# %% REQUIRED LIBRARIES
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
+
+# %% EXAMPLE APPLICATION from https://dash.plotly.com/
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 

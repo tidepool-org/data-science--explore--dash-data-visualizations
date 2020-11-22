@@ -6,7 +6,7 @@ import dash_html_components as html
 import pandas as pd
 
 
-# %% EXAMPLE APPLICATION
+# %% EXAMPLE APPLICATION from https://dash.plotly.com/
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -15,6 +15,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 data = [{'a': 1, 'b': 2, 'c':3}, {'a':10, 'b': 20, 'c': 30}]
 
 df = pd.DataFrame(data)
+
 
 def generate_table(dataframe, max_rows=10):
     return html.Table([
@@ -27,6 +28,7 @@ def generate_table(dataframe, max_rows=10):
             ]) for i in range(min(len(dataframe), max_rows))
         ])
     ])
+
 
 app.layout = html.Div(children=[
     html.H4(children='US Agriculture Exports (2011)'),

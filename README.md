@@ -1,4 +1,4 @@
-# [Project Name]
+# Exploration of Dash Data Visualization Framework for Viewing Tidepool Big Data Donation Project Data
 
 #### -- Project Status: Active
 #### -- Project Disclaimer: This work is for Exploration
@@ -94,4 +94,5 @@ NOTE: PHI data is never stored in github and the .gitignore file includes this r
 |[Ed Nykaza](https://github.com/[ed-nykaza])| @ed        |
 |[Jason Meno](https://github.com/[jameno]) |  @jason    |
 |[Cameron Summers](https://github.com/[scaubrey]) |  @Cameron Summers    |
+|[Anne Evered](https://github.com/[aeevered]) |  @anne    |
 

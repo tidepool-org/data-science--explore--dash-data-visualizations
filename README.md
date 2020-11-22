@@ -1,25 +1,28 @@
-# Exploration of Dash Data Visualization Framework for Viewing Tidepool Big Data Donation Project Data
-
+# Exploration of Dash Data Visualization Framework for Viewing Tidepool Donor Data
 #### -- Project Status: Active
 #### -- Project Disclaimer: This work is for Exploration
 
 ## Project Objective
-The purpose of this project is to explore the use of the Dash Python framework 
-for building data visualization web applications. The repository includes example
-Dash applications (dash-example1.py, dash-example2.py, dash-example3.py, dash-example4.py), as well as different exploratory visualizations of the Tidepool donor
-data. Work in this repository can eventually be incorporated into a Data Science Team 
-visualizations repository (`data-science--tool--visualization-tools`) after the exploratory phase.
+The purpose of this project is to explore the use of the plotly Dash visualization framework 
+for building data visualization web applications as a way to share and explore Tidepool Donor Data.
 
 ## Definition of Done
 This phase of the project will be done when the exploratory phase of the Dash tools
-is completed to a point that the work should be incorporated into a Data Science Team 
-visualization tools.
+is completed to a point that the work should be incorporated into Data Science Team 
+visualization tools (`data-science--tool--visualization-tools`).
 
 ## Project Description
-In order to learn more about the Dash framework and its capabilities, we create a series
-of sample visualizations for exploring the Tidepool donor data with Dash. We have also
-included a series of standard Dash examples from the Dash framework tutorials from this 
+The repository includes example
+Dash applications (`dash-example1.py`, `dash-example2.py`, `dash-example3.py`, `dash-example4.py`).
+The standard Dash examples are from the Dash framework tutorials from this 
 [Dash User Guide](https://dash.plotly.com/). 
+
+The repository also includes two different work in progress exploratory visualizations of the Tidepool donor
+data (`visualize-donor-data-barplot.py`,`visualize-donor-data-scatterplot.py`). 
+
+![](donor-data-barplot.gif) 
+
+![](donor-data-scatterplot.gif)
 
 ### Technologies (Update this list)
 * Python (99% of the time)
@@ -67,10 +70,10 @@ This may also make it easier to convert existing packages into pypi packages. We
 in conda using the conda-environment.yml file when packages are not available via pip (e.g., R and plotly-orca).
 
 ## Getting Started with this project
-1. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-(If using offline data mention that and how they may obtain the data from the froup)
-2. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-3. (Finishing filling out this list)
+The aggregated Tidepool Donor Data
+needed to run the the dash apps is kept on Tidepool's Internal
+Google Drive [here](https://drive.google.com/file/d/1rGGAWDNDre51nqndS4QJtnVwibJbla-P/view?usp=sharing).
+
 
 ## Contributing Guide
 1. All are welcome to contribute to this project.
@@ -86,7 +89,7 @@ or `project_data_figure-2020-04-25-v-0-1-0.png`.
 NOTE: PHI data is never stored in github and the .gitignore file includes this requirement as well.
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Colab Notebook/Figures/Website](link)
+
 
 ## Tidepool Data Science Team
 |Name (with github link)    |  [Tidepool Slack](https://tidepoolorg.slack.com/)   |
@@ -95,4 +98,6 @@ NOTE: PHI data is never stored in github and the .gitignore file includes this r
 |[Jason Meno](https://github.com/[jameno]) |  @jason    |
 |[Cameron Summers](https://github.com/[scaubrey]) |  @Cameron Summers    |
 |[Anne Evered](https://github.com/[aeevered]) |  @anne    |
+
+
 

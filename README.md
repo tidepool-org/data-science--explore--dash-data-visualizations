@@ -94,10 +94,10 @@ NOTE: PHI data is never stored in github and the .gitignore file includes this r
 ## Tidepool Data Science Team
 |Name (with github link)    |  [Tidepool Slack](https://tidepoolorg.slack.com/)   |
 |---------|-----------------|
-|[Ed Nykaza](https://github.com/[ed-nykaza])| @ed        |
-|[Jason Meno](https://github.com/[jameno]) |  @jason    |
-|[Cameron Summers](https://github.com/[scaubrey]) |  @Cameron Summers    |
-|[Anne Evered](https://github.com/[aeevered]) |  @anne    |
+|[Ed Nykaza](https://github.com/ed-nykaza)| @ed        |
+|[Jason Meno](https://github.com/jameno) |  @jason    |
+|[Cameron Summers](https://github.com/scaubrey) |  @Cameron Summers    |
+|[Anne Evered](https://github.com/aeevered) |  @anne    |
 
 
 

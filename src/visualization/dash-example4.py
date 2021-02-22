@@ -100,4 +100,4 @@ def update_graph(xaxis_column_name, yaxis_column_name,
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', debug=True)
